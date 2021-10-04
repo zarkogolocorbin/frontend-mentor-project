@@ -4,7 +4,7 @@
 
 ## Links:
 
-    Live site URL: [Live site of the challenge hosted here](https://single-price-grid-frontend.netlify.app/)
+   Live Site URL: [Live site of the challenge hosted here](https://single-price-grid-frontend.netlify.app/)
 
 ## Build with:
 
