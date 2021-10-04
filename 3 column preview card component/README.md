@@ -13,6 +13,6 @@
 
 ## Author:
 
-Live Site URL: [Live site of the challenge hosted here](https://zarkogolocorbin.github.io/frontend-mentor-project/3%20column%20preview%20card%20component/)
+- Frontend Mentor  [@zarkogolocorbin](https://www.frontendmentor.io/profile/zarkogolocorbin)
 
 **Have fun building!** 🚀
