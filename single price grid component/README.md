@@ -13,7 +13,7 @@
 ## Author:
 
 - Frontend Mentor  [@zarkogolocorbin](https://www.frontendmentor.io/profile/zarkogolocorbin)
-- - Frontend Mentor - [@zarkogolocorbin](https://www.frontendmentor.io/profile/zarkogolocorbin)
+- Frontend Mentor - [@zarkogolocorbin](https://www.frontendmentor.io/profile/zarkogolocorbin)
 
 
 **Have fun building!** 🚀
