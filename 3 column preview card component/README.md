@@ -13,6 +13,6 @@
 
 ## Author:
 
-- Frontend Mentor [@zarkogolocorbin](https://www.frontendmentor.io/profile/zarkogolocorbin)
+Live Site URL: [Live site of the challenge hosted here]()
 
 **Have fun building!** 🚀
