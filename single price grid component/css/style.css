@@ -149,16 +149,11 @@ footer {
 /* Media Queries */
 
 @media (min-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   main {
     max-width: 63.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 9.5rem;
   }
 
   .first-section {
