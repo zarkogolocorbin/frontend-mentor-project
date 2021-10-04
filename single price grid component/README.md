@@ -16,5 +16,3 @@
 - Frontend Mentor - [@zarkogolocorbin](https://www.frontendmentor.io/profile/zarkogolocorbin)
 
 **Have fun building!** 🚀
-
-**Have fun building!** 🚀
