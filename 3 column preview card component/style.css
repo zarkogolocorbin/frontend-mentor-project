@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 3.5rem;
+}
+
+p {
+  margin-top: 3.5rem;
+  color: #fff;
+  opacity: 0.75;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+}
+
+.card {
+  max-width: 30rem;
+  padding: 4.8rem;
+}
+
+.sedans {
+  background-color: #e28625;
+}
+
+.suvs {
+  background-color: #006971;
+}
+
+.luxury {
+  background-color: #004140;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  padding: 1.2rem 3rem;
+  border-radius: 2.5rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
+.sedans > .btn {
+  color: #e28625;
+}
+
+.suvs > .btn {
+  color: #006971;
+}
+
+.luxury > .btn {
+  color: #004140;
+}
+
+@media (min-width: 560px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
