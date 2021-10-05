@@ -1,1 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: 1fr repeat(10, minmax(min-content, 1fr)) 1fr;
+  padding-bottom: 7.8rem;
+}
+
+/* Header */
+
+.header {
+  padding: 8.5rem 3.2rem 0 3.2rem;
+  color: #4d4f62;
+  grid-column: 2 / -2;
+}
+
+.header-title {
+  font-size: calc(24px + (48 - 24) * ((100vw - 375px) / (1440 - 375)));
+  font-weight: 200;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.header-title span {
+  font-weight: 600;
+  display: block;
+}
+
+.header-content {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  text-align: center;
+  margin-top: 1.3rem;
+  opacity: 0.5;
+}
+
+.main {
+  padding: 7.8rem 3.2rem 3rem 3.2rem;
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    "supervisor"
+    "team-builder"
+    "karma"
+    "calculator";
+}
+
+.card {
+  max-width: 350px;
+  padding: 2.8rem;
+  background-color: #fff;
+  border-top: 3.55px solid #44d3d2;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+.supervisor {
+  grid-area: supervisor;
+  align-content: center;
+  border-color: #44d3d2;
+}
+
+.team-builder {
+  grid-area: team-builder;
+  border-color: #ea5454;
+}
+
+.karma {
+  grid-area: karma;
+  border-color: #fcae4a;
+}
+
+.calculator {
+  grid-area: calculator;
+  border-color: #549ef2;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.card-content {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  opacity: 0.5;
+}
+
+.card img {
+  width: calc(57px + (64 - 57) * ((100vw - 375px) / (1440 - 375)));
+  text-align: end;
+  margin-top: 3.3rem;
+  margin-right: 0;
+  display: block;
+  margin-left: auto;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: grid;
+  }
+
+  .main {
+    max-width: 768x;
+    margin: 0 auto;
+    align-items: center;
+    grid-template-areas:
+      "supervisor team-builder"
+      "karma calculator";
+  }
+}
+
+@media (min-width: 1140px) {
+  .main {
+    max-width: 1140x;
+    margin: 0 auto;
+    grid-template-areas:
+      "supervisor team-builder karma"
+      "supervisor calculator karma";
+  }
+}
