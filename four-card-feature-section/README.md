@@ -4,7 +4,7 @@
 
 ## Links:
 
-    Live site URL:[Live site of the challenge hosted here](https://zarkogolocorbin.github.io/frontend-mentor-project/four-card-feature-section/)
+Live Site URL: [Live site of the challenge hosted here](https://zarkogolocorbin.github.io/frontend-mentor-project/four-card-feature-section/)
 
 ## Build with:
 
