@@ -90,6 +90,7 @@ p {
 
 footer p {
   color: #2c2c2c;
+  text-align: center;
 }
 
 @media (min-width: 560px) {
